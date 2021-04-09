@@ -2,6 +2,7 @@ from sklearn.metrics import confusion_matrix, classification_report
 import matplotlib.pyplot as plt
 
 def results(y_test, pred_xgboost):
+
     print('Classification Report XGBoost: \n', classification_report(y_test, pred_xgboost))
 
     conf_mat = confusion_matrix(y_test, pred_xgboost)
