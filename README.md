@@ -10,7 +10,7 @@ The link is in the repo.
 
 To use in Colab, just select the "electric_Lines_Patterns.ipynb" file and click on "Open in colab".
 
-To use the .py pipeline files, add first the 'database.csv' file to the project folder.
+To use the .py pipeline files, add the 'database.csv' file to the project folder.
 
 # Future Improvement: 
 Deploy the algorithm in a Docker Container.
